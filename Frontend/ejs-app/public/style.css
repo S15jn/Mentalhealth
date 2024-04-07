@@ -1,15 +1,47 @@
 /* public/styles.css */
 nav {
-    background-color: #333;
+    background-color: #221e1c;
     padding: 10px;
+    color:#efc865 ;
+    display: flex;
+    
 }
+nav .details{
+    /* display: inline; */
+    position: relative;
+    margin-left: 23rem;
+    
+}
+.linkss{
+    margin-left: 10rem;
+}
+
 
 nav .linkss ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+nav button a{
+    text-decoration: none;
+    color: #221e1c;
+}
+nav button {
+    text-decoration: none;
+    background-color: #efc865;
+    border-radius: 20px;
+    border: none;
 
+
+
+}
+nav button:hover{
+    text-decoration: none;
+    background-color: navajowhite;
+    border-radius: 20px;
+    border: none;
+    animation: ease-in-out;
+}
 nav ul li {
     display: inline;
     margin-right: 10px;
@@ -25,9 +57,317 @@ nav ul li a:hover {
 }
 
 /* ============================================================= */
+button{
+    text-decoration: none;
+    background-color: #efc865;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover{
+    text-decoration: none;
+    background-color: navajowhite;
+    border-radius: 20px;
+    border: none;
+    animation: ease-in-out;
+}
+
+
+/* ============================================================= */
 .hero-section{
     display: flex;
-    background-color: yellow;
-    height: 500px;
-    width: 100%;
+   background-image: url("hero_image.jpg");
+  
 }
+.hero-write{
+    text-align: center;
+    /* justify-content: center; */
+    /* position:absolute; */
+    margin: auto;
+    margin-right: 2px;
+}
+.hero-text h2{
+color: #221e1c;
+}
+.hero-text h2 span{
+color: #efc865;
+}
+
+.hero-btn{
+    margin-top: 2rem;
+   
+}
+.hero-btn button{
+    padding:1rem 1rem;
+}
+.hero-btn a{
+    text-decoration: none;
+    color: #221e1c;
+}
+
+
+/* ============================================================= */
+.features{
+    /* display: flex !important; */
+    
+   
+    border: none;
+    background-color: #6d6b6c;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+
+
+}
+
+.card-text{
+
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin: 3px 3px;
+    justify-content: center;
+    width: 30rem;
+    color: aliceblue;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+
+
+
+/* ============================================================= */
+.mission{
+    padding-top: 1rem;
+    background-color: #efc865;
+    height: 270px;
+    
+}
+.mission h3{
+ text-align: center !important;
+ padding-top: 20px;
+ 
+}
+.mission-text{
+    display: flex;
+}
+.mission-img{
+    margin-top: 0;
+}
+.mission-para p{
+    /* text-align: center; */
+ padding-top: 4rem;
+ padding-left: 2rem;
+}
+/* ============================================================= */
+.book{
+    display: flex;
+    background-color: #827c78;
+}
+.book-card{
+    display: flex;
+}
+.book-text{
+padding-top: 8rem;
+padding-right: 2rem;
+padding-left: 2rem;
+
+}
+ .book-card .card{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    height: 12rem;
+    margin-bottom: 3rem;
+}
+.card-body{
+   font-size: smaller;
+}
+.card-body p{
+    line-height: 0.2cm;
+}
+/* ============================================================= */
+.reviews {
+    height: 200px;
+}
+.heading{
+    padding-top: 2rem;
+    margin-top: 2rem;
+    display: inline;
+    text-align: center !important;
+}
+.reviews .cards {
+    height: 10rem;
+    display: flex;
+    
+   
+   
+}
+.reviews .cards .card{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 30px;
+    border: 2px solid #efc865;
+   
+}
+.reviews i{
+    color: #efc865;
+}
+.reviews p{
+
+    margin-top: 2rem;
+
+}
+
+.reviews .card-body{
+    text-align: center;
+    overflow: hidden;
+}
+
+/* ============================================================= */
+.specialize{
+    
+    background-color: #efc865;
+    
+    padding-top: 2rem;
+}
+.spe-card{
+    display: flex;
+}
+
+.spe-card .card{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #6d6b6c;
+
+}
+.spe-card p{
+    line-height: normal;
+   
+}
+.spe-card a{
+    background-color: #efc865;
+}
+
+
+
+/* ============================================================= */
+.abt{
+    text-align: center;
+    color: #efc865;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.abt-text{
+    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+/* ============================================================= */
+.contact {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+.contact .card{
+   
+     margin: 3rem 22rem;
+     text-align: center;
+     border-radius: 30px;
+     
+
+}
+.contact .card i{
+    font-size: 4rem;
+}
+.cnt-head{
+    margin-top: 2rem;
+    color: #efc865;
+}
+.contact .card-title{
+    margin-top: 1rem;
+}
+.contact .card a{
+    text-decoration: none;
+    color: #efc865;
+    font-weight: bolder;
+}
+.contact .card-title :hover{
+    text-decoration: underline;
+    color:navajowhite;
+    font-weight: bolder;
+}
+/* ============================================================= */
+footer{
+    background-color: #221e1c;
+    height: 3rem;
+    text-align: center;
+}
+footer h6{
+   padding-top: 1rem;
+    color: #efc865;
+}
+/* ============================================================= */
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #efc865;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.appoint{
+    text-align: center;
+    color: #efc865;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* ============================================================= */
+.depp{
+    text-align: center;
+}
+.depp ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.depp h1{
+    color: #efc865;
+}
+/* ============================================================= */
+/* ============================================================= */
+/* ============================================================= */
